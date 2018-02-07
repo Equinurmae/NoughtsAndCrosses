@@ -11,4 +11,27 @@ package oxo;
  */
 public class Board {
     
+    Board(){
+        
+    }
+    
+    Position position(String s){
+        return null;
+    }
+    
+    void move(Position p){
+        
+    }
+    
+    Player winner(){
+        return null;
+    }
+    
+    Position[] blanks(){
+        return null;
+    }
+    
+    public String toString(){
+        return null;
+    }
 }
