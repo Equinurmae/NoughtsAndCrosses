@@ -34,4 +34,8 @@ public class Board {
     public String toString(){
         return null;
     }
+    
+    Position suggest() {
+        return null;
+    }
 }
