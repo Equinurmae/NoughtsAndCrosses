@@ -32,12 +32,12 @@ public class Board {
         }
     }
     
-    Position position(String s) throws Exception{
+    Position position(String s) {
         assert(s.length() == 2);
         char r = s.charAt(0);
         char c = s.charAt(1);
         if(!(c >= '1' && c <= '3')) {
-            throw new Exception("Please choose column 1, 2 or 3.");
+            return null;
         }
         int x;
         switch (r){
@@ -51,7 +51,7 @@ public class Board {
                 x = 3;
                 break;
             default:
-                throw new Exception("Please choose row 'a', 'b' or 'c'.");
+                return null;
         }
         Position p = new Position(x, Character.getNumericValue(c));
         return p;
