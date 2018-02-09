@@ -21,14 +21,14 @@ public class Position
 
     // Return the row numer.
 
-    int row()
+    public int row()
     {
         return row;
     }
 
     // Return the column numer.
 
-    int col()
+    public int col()
     {
         return col;
     }

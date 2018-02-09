@@ -42,9 +42,9 @@ public class Tests {
       b.move(new Position(1,1));
       b.move(new Position(1,2));
       b.move(new Position(2,0));
-      b.move(new Position(0,1));
-      b.move(new Position(0,0));
       b.move(new Position(1,0));
+      b.move(new Position(0,0));
+      b.move(new Position(0,1));
       assertEquals("OXO\nXOX\nOXX\n",b.toString());
       assertEquals(Player.O, b.winner());
       assertArrayEquals(b.blanks(), null);

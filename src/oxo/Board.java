@@ -12,9 +12,9 @@ import java.util.ArrayList;
  * @author lucas
  */
 public class Board {
-    int rows, cols;
-    Player next;
-    Player[][] b;
+    private int rows, cols;
+    private Player next;
+    private Player[][] b;
     
     public Board(){
         this(3,3);
