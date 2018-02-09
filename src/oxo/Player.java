@@ -4,7 +4,7 @@ package oxo;
 // Player.None and Player.Both to represent neither player or both players.
 // A method is provided to find the other player from the current one.
 
-enum Player
+public enum Player
 {
     X, O, None, Both;
 

@@ -5,13 +5,13 @@ package oxo;
 // 1, 2 from left to right).  A position object can't be changed after it is
 // created.
 
-class Position
+public class Position
 {
     private int row, col;
 
     // Create a Position with the given coordinates.
 
-    Position(int r, int c)
+    public Position(int r, int c)
     {
         if (r < 0 || r > 2) throw new Error("Coordinate out of range");
         if (c < 0 || c > 2) throw new Error("Coordinate out of range");
